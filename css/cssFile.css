@@ -1,49 +1,187 @@
 *{margin:0px;padding:0px;}
-.icons{
-font-size:20px;
+
+.item1 { grid-area: header; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header header header header ';
+  gap: 10px;
+ 
 }
-.Flex-Container
+a{
+  text-decoration: none;
+  color:#5f6368;
+  font-size:25px;
+  padding-left: 30px;
+}
+.grid-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding:0px;
+  margin:0px;
+  font-size: 30px;
+}
+.Navbar-grid{
+  display:grid;
+  grid-template-columns: 20px 45px 20px 1080px 50px 50px 50px 40px 50px;
+  border-bottom: 1px solid rgb(236, 236, 236);;
+}
+.Searchbox{
+   margin: 15px;
+   height:50px;
+   width:700px;
+   border-style: none;
+   background-color: rgba(243, 245, 247, 0.979);
+   border-radius: 10px ;
+}
+.mainbodysearcbar{
+  height:50px;
+  width:700px;
+  border-style: none;
+  background-color: rgba(245, 245, 245, 0.979);
+
+}
+#imageinsearchbox{
+background-image: url("/images/magnifyingglass.svg");
+position:left;
+padding-left:30px;
+background-size: 20px;
+background-repeat: no-repeat;
+}
+.grid-item1,.grid-item2,.grid-item3,.grid-item5,.grid-item6,.grid-item7,.grid-item8,.grid-item9{  color: rgb(144, 145, 145); font-size: large;
+}
+.grid-item5{
+  padding-left:220px;padding-top:24px;
+}
+.grid-item6
 {
-    display:flex;
-    border-bottom: 1px solid rgb(180, 180, 180);
-    padding-top: 4px;
-    padding-bottom: 4px;;
+  padding-left:210px;padding-top:25px;
 }
+.grid-item7{
+  padding-left:200px;padding-top:25px;
+}
+.grid-item8
+{
+  padding-left:250px;padding-top:25px;
+}
+.grid-item9{
+  padding-left:240px;
+  padding-top: 20px;;
+}
+.imagelogoo{ width:20px;height:20px; opacity: 0.5;}
+.imagelogoo:hover{ background-color: #eeeeee;opacity: 1;}
+.textOfSideNavbar
+{
+
+font-family:sans-serif;
+}
+.grid-item1{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.sidebaranchortag
+{
+font-size: 14px;
+padding-left: 20px;
+}
+.Sidebar{
+width: 300px;
+}
+.BodySection{
+  display:flex;
+  /* margin-top: 10px;
+ width: 250px;; */
+}
+.Sidenavbaricons{
+ width:22px;
+ height: 20px;
+ padding-right: 20px;
+}
+li{
+  padding-top:13px;
+  padding-bottom: 13px;
+  border-radius:0px 20px 20px 0px;
+}
+ul li:hover{
+   background-color: #ececec;
+   border-radius:0px 20px 20px 0px;
+   -webkit-border-radius:0px 20px 20px 0px;
+   -moz-border-radius:0px 20px 20px 0px;
+   -ms-border-radius:0px 20px 20px 0px;
+   -o-border-radius:0px 20px 20px 0px;
+}
+
 .WebsiteLogo{
-    height:80%;
-    width:90%;
+  height: 40px;
+  padding: 20px 0px 5px 1px;
 }
-.imagelogo{
-    height:60%;
-    width:80%;
-    color:rgb(90, 90, 90);
+
+.inner{
+  background-color: rgba(255, 255, 255, 0.8);
 }
-.flex-item{
-    margin:10px;
+.SearchIcon
+{
+  
+    width: 30px;
+    height: 30px;
 }
-#icon {
-    background-image: url(../images/icons/dollar.png);
-    background-repeat: no-repeat;
-    background-position: 2px 3px;
-  }
-  .ProductName{
-    font-family:sans-serif;
-    font-size:150%;
-    text-decoration:none;
-    color:rgb(56, 56, 56);
-  }
-  .Searchbox{
-    background-color: #e7e4e4;
-    line-height: 40px;
-    border-radius: 5px;
-border:1px solid rgb(204, 204, 204)
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    
 }
-  .Sidenavbaricons
-  {
-    width:2%;
-    height:2%;
-  }
+input{
+ font-size: 18px; 
+}
+.imagelogo
+{
+  width:30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.ProductName{
+  color: #38393a;
+padding-top: 27px;;
+  padding-left:27px
+
+}
+.NotesSection{
+display:flex;
+flex-wrap: wrap;
+gap: 30px;
+align-items: center;
+justify-content: center;
+}
+.Notes{
+  width:270px;
+  height: 200px;
+  padding:20px;
+  border:1px solid rgb(197, 197, 197);
+  box-shadow: 0px 1px 1px 0px #dddddd;
+  font-size: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.notesimage1,.notesimage2,.notesimage3
+{
+padding-top: 3px;
+padding-right:2px;
+width:30px;
+}
+.Main{
+  display:flex;
+  padding-left: 250px;
+  padding-top: 10px;
+  border:1px solid rgb(230, 230, 230);
+
+}

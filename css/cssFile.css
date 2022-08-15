@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/product-sans');
+
 *{margin:0px;padding:0px;}
 
 .item1 { grid-area: header; }
@@ -32,14 +34,22 @@ a{
    height:50px;
    width:700px;
    border-style: none;
-   background-color: rgba(243, 245, 247, 0.979);
+   background-color: rgba(228, 229, 230, 0.979);
+   background-image: url("/images/magnifyingglass.svg") ;
+   background-position: 20px 17px;
+   background-repeat: no-repeat;
+  opacity: 0.5;
+  padding-left: 34px;
+  background-size: 16px 16px;
    border-radius: 10px ;
 }
 .mainbodysearcbar{
-  height:50px;
-  width:700px;
-  border-style: none;
-  background-color: rgba(245, 245, 245, 0.979);
+  height:30px;
+  width:500px;
+  padding-top: 3px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 15px;;
+
 
 }
 #imageinsearchbox{
@@ -49,7 +59,7 @@ padding-left:30px;
 background-size: 20px;
 background-repeat: no-repeat;
 }
-.grid-item1,.grid-item2,.grid-item3,.grid-item5,.grid-item6,.grid-item7,.grid-item8,.grid-item9{  color: rgb(144, 145, 145); font-size: large;
+.grid-item1,.grid-item2,.grid-item5,.grid-item6,.grid-item7,.grid-item8,.grid-item9{  color: rgb(121, 122, 122); font-size: large;
 }
 .grid-item5{
   padding-left:220px;padding-top:24px;
@@ -63,10 +73,11 @@ background-repeat: no-repeat;
 }
 .grid-item8
 {
-  padding-left:250px;padding-top:25px;
+  padding-left:240px;padding-top:25px;
 }
 .grid-item9{
   padding-left:240px;
+  
   padding-top: 20px;;
 }
 .imagelogoo{ width:20px;height:20px; opacity: 0.5;}
@@ -74,7 +85,8 @@ background-repeat: no-repeat;
 .textOfSideNavbar
 {
 
-font-family:sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
 }
 .grid-item1{
   padding-left: 30px;
@@ -86,10 +98,12 @@ font-size: 14px;
 padding-left: 20px;
 }
 .Sidebar{
-width: 300px;
+width: 280px;
 }
 .BodySection{
   display:flex;
+  margin-top: 10px;
+  margin-bottom: -122px;
   /* margin-top: 10px;
  width: 250px;; */
 }
@@ -97,6 +111,7 @@ width: 300px;
  width:22px;
  height: 20px;
  padding-right: 20px;
+ opacity: 0.5;
 }
 li{
   padding-top:13px;
@@ -146,12 +161,16 @@ input{
   -o-border-radius: 15px;
 }
 .ProductName{
-  color: #38393a;
+color: black;
+font-size: 20px;
+font-family: 'Product Sans', sans-serif;
+                                                
 padding-top: 27px;;
   padding-left:27px
 
 }
 .NotesSection{
+
 display:flex;
 flex-wrap: wrap;
 gap: 30px;
@@ -159,12 +178,16 @@ align-items: center;
 justify-content: center;
 }
 .Notes{
-  width:270px;
-  height: 200px;
+  /* 
+  height: 200px; */
+  font-family: 'Roboto', sans-serif;
   padding:20px;
+  width:270px;
+  font-size: 30px;
   border:1px solid rgb(197, 197, 197);
   box-shadow: 0px 1px 1px 0px #dddddd;
-  font-size: 20px;
+  font-size: 18px;
+  opacity: 0.7;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -174,14 +197,19 @@ justify-content: center;
 
 .notesimage1,.notesimage2,.notesimage3
 {
-padding-top: 3px;
+padding-top: 13px;
 padding-right:2px;
 width:30px;
+opacity:0.6;
 }
-.Main{
-  display:flex;
-  padding-left: 250px;
-  padding-top: 10px;
-  border:1px solid rgb(230, 230, 230);
 
+.MainContent{display:flex; border:1px solid #ccc; height: 40px; border-radius: 10px;margin-top: 45px;margin-left: 350px;padding-bottom: 9px;opacity: 0.8;
+  box-shadow:4px 1px 7px rgb(115, 117, 117); 
 }
+.notesimage1{ padding-right: 14px;}
+.notesimage2{ padding-left: 15px; padding-right:10px ;}
+.notesimage3{ padding-left: 15px; padding-right: 10px ; }
+
+.notes1{height: 88px;margin-bottom: 670px;}
+.notes2{ height: 150px;margin-bottom: 610px;}
+.notes3{height: 88px;margin-bottom: 670px;}

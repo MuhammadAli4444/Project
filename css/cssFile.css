@@ -85,8 +85,8 @@ background-repeat: no-repeat;
 .textOfSideNavbar
 {
 
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
+  font-family: 'Roboto', 'Trebuchet MS';
+  font-weight: 400;
 }
 .grid-item1{
   padding-left: 30px;
@@ -172,7 +172,6 @@ padding-top: 27px;;
 .NotesSection{
 
 display:flex;
-flex-wrap: wrap;
 gap: 30px;
 align-items: center;
 justify-content: center;
@@ -213,3 +212,11 @@ opacity:0.6;
 .notes1{height: 88px;margin-bottom: 670px;}
 .notes2{ height: 150px;margin-bottom: 610px;}
 .notes3{height: 88px;margin-bottom: 670px;}
+
+@media screen and (min-width: 895px) {
+.NotesSection{
+  padding-left: 259px;;
+}
+
+
+  }
